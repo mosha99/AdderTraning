@@ -28,7 +28,7 @@ begin
 	u1 : FA port Map(A => A(0) , B=> B(0) , C_in => C_in , S => S(0),C_out => c(0) );
 	u2 : FA port Map(A => A(1) , B=> B(1) , C_in => c(0) , S => S(1),C_out => c(1) );
 	u3 : FA port Map(A => A(2) , B=> B(2) , C_in => c(1) , S => S(2),C_out => c(2) );
-	u4 : FA port Map(A => A(3) , B=> B(3) , C_in => c(0) , S => S(3),C_out => c(3) );
+	u4 : FA port Map(A => A(3) , B=> B(3) , C_in => c(2) , S => S(3),C_out => c(3) );
 
 	C_out <= c(3);
 
