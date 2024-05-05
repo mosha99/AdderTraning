@@ -1,1 +1,0 @@
- -w -cvi  -2002  -s "c:/My_Designs/AdderTraning/AdderDesing/hdl_assist/library.cfg"  -work AdderDesing  -e 100  "c:/My_Designs/AdderTraning/AdderDesing/hdl_assist/82a5-1039-2ec2-7584"

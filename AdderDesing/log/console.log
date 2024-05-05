@@ -1,0 +1,569 @@
+# Design: Design AdderDesing already active.
+# DESIGN: Default Design Language: VHDL
+# DESIGN: Default BDE Language: VHDL
+# DESIGN: Flow Manager: Not Defined
+acom -reorder -O3 -e 100 -work AdderDesing -2002  $dsn/src/FA.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:/My_Designs/AdderTraning/AdderDesing/src/FA.vhd
+# Compile Entity "FA"
+# Compile Architecture "FA" of Entity "FA"
+# Top-level unit(s) detected:
+# Entity => FA
+# Compile success 0 Errors 0 Warnings  Analysis time :  63.0 [ms]
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+asim -O5 +access +r +m+FA FA FA
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.1 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6420 kB (elbread=427 elab2=5854 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location c:\My_Designs\AdderTraning\AdderDesing\src\wave.asdb
+#  5:05 PM, Sunday, May 5, 2024
+#  Simulation has been initialized
+# VSIM: 5 object(s) traced.
+# Waveform file 'untitled.awc' connected to 'c:/My_Designs/AdderTraning/AdderDesing/src/wave.asdb'.
+# KERNEL: Warning: KERNEL_0291 Object "/FA/A" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/FA/B" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/FA/C_in" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/FA/S" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/FA/C_out" has already been traced.
+# VSIM: 0 object(s) traced.
+# Waveform file 'untitled.awc' connected to 'c:/My_Designs/AdderTraning/AdderDesing/src/wave.asdb'.
+run 200 ns
+# KERNEL: stopped at time: 200 ns
+# Waveform file 'c:/My_Designs/AdderTraning/AdderDesing/src/untitled.awc' connected to 'c:/My_Designs/AdderTraning/AdderDesing/src/untitled.asdb'.
+# Adding file c:\My_Designs\AdderTraning\AdderDesing\src\untitled.asdb ... Done
+# Adding file c:\My_Designs\AdderTraning\AdderDesing\src\untitled.awc ... Done
+endsim
+# VSIM: Simulation has finished.
+# Error: Accelerated Waveform: Simulation database is not connected. Initialize simulation or load simulation database by opening waveform file (AWC, ASDB).
+# Error: Accelerated Waveform: Simulation database is not connected. Initialize simulation or load simulation database by opening waveform file (AWC, ASDB).
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+asim -O5 +access +r +m+FA FA FA
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6420 kB (elbread=427 elab2=5854 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location c:\My_Designs\AdderTraning\AdderDesing\src\wave.asdb
+# Stimuli: Warning: The stimuli set "StimuliSet1" has been made inactive.
+#  5:10 PM, Sunday, May 5, 2024
+#  Simulation has been initialized
+# VSIM: 5 object(s) traced.
+# Waveform file 'untitled.awc' connected to 'c:/My_Designs/AdderTraning/AdderDesing/src/wave.asdb'.
+code .
+# CODE2GRAPHICS: Error: File . cannot be found.
+# CODE2GRAPHICS: Error: Problem has been encountered during conversion.
+# CODE2GRAPHICS: Warning: Interface files were not generated from some files.
+# CODE2GRAPHICS: Error: Diagrams were not generated from some files.
+# CODE2GRAPHICS: Error: Double click on this line to view the generated log file.
+acom -O3 -e 100 -work AdderDesing -2002  $dsn/src/_4BitFullAdder.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:/My_Designs/AdderTraning/AdderDesing/src/_4BitFullAdder.vhd
+# Compile Entity "\_4BitFullAdder\"
+# Compile Architecture "\_4BitFullAdder\" of Entity "\_4BitFullAdder\"
+# Compile success 0 Errors 0 Warnings  Analysis time :  15.0 [ms]
+# Design: Design adderdesing already active.
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:/My_Designs/AdderTraning/AdderDesing/src/FA.vhd
+# Compile Entity "FA"
+# Compile Architecture "FA" of Entity "FA"
+# File: c:/My_Designs/AdderTraning/AdderDesing/src/_4BitFullAdder.vhd
+# Compile Entity "\_4BitFullAdder\"
+# Compile Architecture "\_4BitFullAdder\" of Entity "\_4BitFullAdder\"
+# Compile success 0 Errors 0 Warnings  Analysis time :  63.0 [ms]
+# Design: Design adderdesing already active.
+# Design: Design adderdesing already active.
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:/My_Designs/AdderTraning/AdderDesing/src/FA.vhd
+# Compile Entity "FA"
+# Compile Architecture "FA" of Entity "FA"
+# File: c:/My_Designs/AdderTraning/AdderDesing/src/_4BitFullAdder.vhd
+# Compile Entity "\_4BitFullAdder\"
+# Compile Architecture "\_4BitFullAdder\" of Entity "\_4BitFullAdder\"
+# Compile success 0 Errors 0 Warnings  Analysis time :  31.0 [ms]
+# Design: Design adderdesing already active.
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+asim -O5 +access +r +m+{\_4BitFullAdder\} {\_4BitFullAdder\} {\_4BitFullAdder\}
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6422 kB (elbread=427 elab2=5855 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location c:\My_Designs\AdderTraning\AdderDesing\src\wave.asdb
+#  5:31 PM, Sunday, May 5, 2024
+#  Simulation has been initialized
+# VSIM: 6 object(s) traced.
+# Waveform file 'untitled.awc' connected to 'c:/My_Designs/AdderTraning/AdderDesing/src/wave.asdb'.
+# KERNEL: Error: Cannot find signal /FA/A
+# VSIM: Error: Cannot force signal "/FA/A" with formula "0 0fs, 1 25ns -r 50ns".
+# KERNEL: Error: Cannot find signal /FA/B
+# VSIM: Error: Cannot force signal "/FA/B" with formula "0 0fs, 1 50ns -r 100ns".
+# KERNEL: Error: Cannot find signal /FA/C_in
+# VSIM: Error: Cannot force signal "/FA/C_in" with formula "0 0fs, 1 100ns -r 200ns".
+# Stimuli: Info: The stimuli set "StimuliSet1" has been made active.
+# KERNEL: Error: KERNEL_0066 Value 2 does not belong to type STD_LOGIC.
+# VSIM: Error: Cannot force signal "/\_4BitFullAdder\/A" with formula "2".
+run 200 ns
+# KERNEL: stopped at time: 200 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+{\_4BitFullAdder\} {\_4BitFullAdder\} {\_4BitFullAdder\}
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6422 kB (elbread=427 elab2=5855 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location c:\My_Designs\AdderTraning\AdderDesing\src\wave.asdb
+# Stimuli: Warning: The stimuli set "StimuliSet1" has been made inactive.
+#  5:35 PM, Sunday, May 5, 2024
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'c:/My_Designs/AdderTraning/AdderDesing/src/wave.asdb'.
+run 200 ns
+# KERNEL: stopped at time: 200 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+endsim
+# VSIM: Simulation has finished.
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+asim -O5 +access +r +m+{\_4BitFullAdder\} {\_4BitFullAdder\} {\_4BitFullAdder\}
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6422 kB (elbread=427 elab2=5855 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location c:\My_Designs\AdderTraning\AdderDesing\src\wave.asdb
+#  5:35 PM, Sunday, May 5, 2024
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'c:/My_Designs/AdderTraning/AdderDesing/src/wave.asdb'.
+# VSIM: 6 object(s) traced.
+run 200 ns
+# KERNEL: stopped at time: 200 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+# KERNEL: Error: KERNEL_0066 Value 2 does not belong to type STD_LOGIC.
+# VSIM: Error: Cannot force signal "/\_4BitFullAdder\/A" with formula "2".
+run 200 ns
+# KERNEL: stopped at time: 400 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run 200 ns
+# KERNEL: stopped at time: 600 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run 200 ns
+# KERNEL: stopped at time: 800 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run 200 ns
+# KERNEL: stopped at time: 1 us
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run 200 ns
+# KERNEL: stopped at time: 1200 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+endsim
+# VSIM: Simulation has finished.
+# Error: Accelerated Waveform: Simulation database is not connected. Initialize simulation or load simulation database by opening waveform file (AWC, ASDB).
+# Error: Accelerated Waveform: Simulation database is not connected. Initialize simulation or load simulation database by opening waveform file (AWC, ASDB).
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+asim -O5 +access +r +m+{\_4BitFullAdder\} {\_4BitFullAdder\} {\_4BitFullAdder\}
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6422 kB (elbread=427 elab2=5855 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location c:\My_Designs\AdderTraning\AdderDesing\src\wave.asdb
+# Stimuli: Warning: The stimuli set "StimuliSet2" has been made inactive.
+#  5:45 PM, Sunday, May 5, 2024
+#  Simulation has been initialized
+# VSIM: 5 object(s) traced.
+# Waveform file 'untitled.awc' connected to 'c:/My_Designs/AdderTraning/AdderDesing/src/wave.asdb'.
+# KERNEL: Warning: The specified value `1111' does not match the width of the vector. The value will be truncated.
+run 200 ns
+# KERNEL: stopped at time: 200 ns
+# Breakpoint set on signal "/\_4BitFullAdder\/A".
+# KERNEL: Warning: The specified value `1111' does not match the width of the vector. The value will be truncated.
+run 150 ns
+# KERNEL: Stopped at time 200 ns + 1.
+# Stopped at breakpoint on signal "/\_4BitFullAdder\/A" (Event condition).
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+{\_4BitFullAdder\} {\_4BitFullAdder\} {\_4BitFullAdder\}
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6422 kB (elbread=427 elab2=5855 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location c:\My_Designs\AdderTraning\AdderDesing\src\wave.asdb
+# Stimuli: Warning: The stimuli set "StimuliSet3" has been made inactive.
+#  5:49 PM, Sunday, May 5, 2024
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'c:/My_Designs/AdderTraning/AdderDesing/src/wave.asdb'.
+# Breakpoint set on signal "/\_4BitFullAdder\/A".
+run 150 ns
+# KERNEL: stopped at time: 150 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+endsim
+# VSIM: Simulation has finished.
+# Design: Design adderdesing already active.
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:/My_Designs/AdderTraning/AdderDesing/src/FA.vhd
+# Compile Entity "FA"
+# Compile Architecture "FA" of Entity "FA"
+# File: c:/My_Designs/AdderTraning/AdderDesing/src/_4BitFullAdder.vhd
+# Compile Entity "\_4BitFullAdder\"
+# Compile Architecture "\_4BitFullAdder\" of Entity "\_4BitFullAdder\"
+# File: c:/My_Designs/AdderTraning/AdderDesing/src/HA.vhd
+# Compile Entity "HA"
+# Compile Architecture "HA" of Entity "HA"
+# Compile success 0 Errors 0 Warnings  Analysis time :  62.0 [ms]
+# Design: Design adderdesing already active.
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+asim -O5 +access +r +m+HA HA HA
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5397 kB (elbread=427 elab2=4831 kernel=138 sdf=0)
+# KERNEL: ASDB file was created in location c:\My_Designs\AdderTraning\AdderDesing\src\wave.asdb
+#  5:58 PM, Sunday, May 5, 2024
+#  Simulation has been initialized
+# KERNEL: Error: Cannot find signal /\_4BitFullAdder\/A
+# Breakpoint on signal "/\_4BitFullAdder\/A" cannot be set.
+# VSIM: 1 object(s) traced.
+# Waveform file 'untitled.awc' connected to 'c:/My_Designs/AdderTraning/AdderDesing/src/wave.asdb'.
+# VSIM: 1 object(s) traced.
+# VSIM: 1 object(s) traced.
+# VSIM: 1 object(s) traced.
+run 8 ns
+# KERNEL: stopped at time: 8 ns
+run 8 ns
+# KERNEL: stopped at time: 16 ns
+endsim
+# VSIM: Simulation has finished.
+# Design: Design adderdesing already active.
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:/My_Designs/AdderTraning/AdderDesing/src/FA.vhd
+# Compile Entity "FA"
+# Compile Architecture "FA" of Entity "FA"
+# File: c:/My_Designs/AdderTraning/AdderDesing/src/_4BitFullAdder.vhd
+# Compile Entity "\_4BitFullAdder\"
+# Compile Architecture "\_4BitFullAdder\" of Entity "\_4BitFullAdder\"
+# File: c:/My_Designs/AdderTraning/AdderDesing/src/HA.vhd
+# Compile Entity "HA"
+# Compile Architecture "HA" of Entity "HA"
+# Compile success 0 Errors 0 Warnings  Analysis time :  62.0 [ms]
+# Design: Design adderdesing already active.
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+asim -O5 +access +r +m+HA HA HA
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5396 kB (elbread=427 elab2=4830 kernel=138 sdf=0)
+# KERNEL: ASDB file was created in location c:\My_Designs\AdderTraning\AdderDesing\src\wave.asdb
+# Stimuli: Warning: The stimuli set "StimuliSet4" has been made inactive.
+#  6:03 PM, Sunday, May 5, 2024
+#  Simulation has been initialized
+# KERNEL: Error: Cannot find signal /\_4BitFullAdder\/A
+# Breakpoint on signal "/\_4BitFullAdder\/A" cannot be set.
+# Design: Design adderdesing already active.
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:/My_Designs/AdderTraning/AdderDesing/src/FA.vhd
+# Compile Entity "FA"
+# Compile Architecture "FA" of Entity "FA"
+# File: c:/My_Designs/AdderTraning/AdderDesing/src/_4BitFullAdder.vhd
+# Compile Entity "\_4BitFullAdder\"
+# Compile Architecture "\_4BitFullAdder\" of Entity "\_4BitFullAdder\"
+# File: c:/My_Designs/AdderTraning/AdderDesing/src/HA.vhd
+# Compile Entity "HA"
+# Compile Architecture "HA" of Entity "HA"
+# Compile success 0 Errors 0 Warnings  Analysis time :  46.0 [ms]
+# Design: Design adderdesing already active.
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+asim -O5 +access +r +m+HA HA HA
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5396 kB (elbread=427 elab2=4830 kernel=138 sdf=0)
+# KERNEL: ASDB file was created in location c:\My_Designs\AdderTraning\AdderDesing\src\wave.asdb
+#  6:04 PM, Sunday, May 5, 2024
+#  Simulation has been initialized
+# KERNEL: Error: Cannot find signal /\_4BitFullAdder\/A
+# Breakpoint on signal "/\_4BitFullAdder\/A" cannot be set.
+# VSIM: 4 object(s) traced.
+# Waveform file 'untitled.awc' connected to 'c:/My_Designs/AdderTraning/AdderDesing/src/wave.asdb'.
+endsim
+# VSIM: Simulation has finished.
+# Design: Design adderdesing already active.
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:/My_Designs/AdderTraning/AdderDesing/src/FA.vhd
+# Compile Entity "FA"
+# Compile Architecture "FA" of Entity "FA"
+# File: c:/My_Designs/AdderTraning/AdderDesing/src/_4BitFullAdder.vhd
+# Compile Entity "\_4BitFullAdder\"
+# Compile Architecture "\_4BitFullAdder\" of Entity "\_4BitFullAdder\"
+# File: c:/My_Designs/AdderTraning/AdderDesing/src/HA.vhd
+# Compile Entity "HA"
+# Compile Architecture "HA" of Entity "HA"
+# Compile success 0 Errors 0 Warnings  Analysis time :  46.0 [ms]
+# Design: Design adderdesing already active.
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+asim -O5 +access +r +m+HA HA HA
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5397 kB (elbread=427 elab2=4831 kernel=138 sdf=0)
+# KERNEL: ASDB file was created in location c:\My_Designs\AdderTraning\AdderDesing\src\wave.asdb
+#  6:05 PM, Sunday, May 5, 2024
+#  Simulation has been initialized
+# KERNEL: Error: Cannot find signal /\_4BitFullAdder\/A
+# Breakpoint on signal "/\_4BitFullAdder\/A" cannot be set.
+# VSIM: 4 object(s) traced.
+# Waveform file 'untitled.awc' connected to 'c:/My_Designs/AdderTraning/AdderDesing/src/wave.asdb'.
+run 4 ns
+# KERNEL: stopped at time: 4 ns
+endsim
+# VSIM: Simulation has finished.
+# Design: Design adderdesing already active.
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:/My_Designs/AdderTraning/AdderDesing/src/FA.vhd
+# Compile Entity "FA"
+# Compile Architecture "FA" of Entity "FA"
+# File: c:/My_Designs/AdderTraning/AdderDesing/src/_4BitFullAdder.vhd
+# Compile Entity "\_4BitFullAdder\"
+# Compile Architecture "\_4BitFullAdder\" of Entity "\_4BitFullAdder\"
+# File: c:/My_Designs/AdderTraning/AdderDesing/src/HA.vhd
+# Compile Entity "HA"
+# Compile Architecture "HA" of Entity "HA"
+# Compile success 0 Errors 0 Warnings  Analysis time :  78.0 [ms]
+# Design: Design adderdesing already active.
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+asim -O5 +access +r +m+{\_4BitFullAdder\} {\_4BitFullAdder\} {\_4BitFullAdder\}
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6425 kB (elbread=427 elab2=5858 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location c:\My_Designs\AdderTraning\AdderDesing\src\wave.asdb
+# Stimuli: Warning: The stimuli set "StimuliSet5" has been made inactive.
+#  6:13 PM, Sunday, May 5, 2024
+#  Simulation has been initialized
+# Breakpoint set on signal "/\_4BitFullAdder\/A".
+# VSIM: 1 object(s) traced.
+# Waveform file 'untitled.awc' connected to 'c:/My_Designs/AdderTraning/AdderDesing/src/wave.asdb'.
+# VSIM: 1 object(s) traced.
+# VSIM: 1 object(s) traced.
+# VSIM: 1 object(s) traced.
+# VSIM: 1 object(s) traced.
+run 4 ns
+# KERNEL: Stopped at time 0 ps + 0.
+# Stopped at breakpoint on signal "/\_4BitFullAdder\/A" (Event condition).
+run 4 ns
+# KERNEL: stopped at time: 4 ns
+run 4 ns
+# KERNEL: Stopped at time 4 ns + 3.
+# Stopped at breakpoint on signal "/\_4BitFullAdder\/A" (Event condition).
+endsim
+# VSIM: Simulation has finished.
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+asim -O5 +access +r +m+{\_4BitFullAdder\} {\_4BitFullAdder\} {\_4BitFullAdder\}
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6425 kB (elbread=427 elab2=5858 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location c:\My_Designs\AdderTraning\AdderDesing\src\wave.asdb
+# Stimuli: Warning: The stimuli set "StimuliSet6" has been made inactive.
+#  6:17 PM, Sunday, May 5, 2024
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'c:/My_Designs/AdderTraning/AdderDesing/src/wave.asdb'.
+# Breakpoint set on signal "/\_4BitFullAdder\/A".
+# VSIM: 1 object(s) traced.
+# Waveform file 'untitled.awc' connected to 'c:/My_Designs/AdderTraning/AdderDesing/src/wave.asdb'.
+# VSIM: 1 object(s) traced.
+# VSIM: 1 object(s) traced.
+# VSIM: 1 object(s) traced.
+# VSIM: 1 object(s) traced.
+run 4 ns
+# KERNEL: Stopped at time 0 ps + 0.
+# Stopped at breakpoint on signal "/\_4BitFullAdder\/A" (Event condition).
+run 4 ns
+# KERNEL: stopped at time: 4 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run 4 ns
+# KERNEL: stopped at time: 8 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+endsim
+# VSIM: Simulation has finished.
+# Waveform file 'c:/My_Designs/AdderTraning/AdderDesing/src/untitled.awc' connected to 'c:/My_Designs/AdderTraning/AdderDesing/src/untitled.asdb'.
+# Adding file c:\My_Designs\AdderTraning\AdderDesing\src\untitled.asdb ... Done
+# Adding file c:\My_Designs\AdderTraning\AdderDesing\src\untitled.awc ... Done
+# Breakpoint on signal "/\_4BitFullAdder\/A" cleared.

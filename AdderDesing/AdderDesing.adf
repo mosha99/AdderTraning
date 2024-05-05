@@ -28,3 +28,7 @@ FAMILY=
 /untitled.awc=-1
 /_4BitFullAdder.vhd=-1
 /HA.vhd=-1
+[HierarchyViewer]
+HierarchyInformation=\_4BitFullAdder\|\_4BitFullAdder\|0 fa|FA|0 ha|HA|0
+ShowHide=ShowTopLevel
+Selected=
