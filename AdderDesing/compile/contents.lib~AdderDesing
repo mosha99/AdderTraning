@@ -1,0 +1,7 @@
+9
+~E 1 "../src/_4BitFullAdder.vhd" 5 \_4BitFullAdder\
+~A 1 "../src/_4BitFullAdder.vhd" 15 \_4BitFullAdder\
+~E 1 "../src/FA.vhd" 4 FA
+~A 1 "../src/FA.vhd" 13 FA
+~E 1 "../src/HA.vhd" 4 HA
+~A 1 "../src/HA.vhd" 13 HA

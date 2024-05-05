@@ -1,0 +1,30 @@
+[Project]
+Current Flow=Generic
+VCS=0
+version=4
+Current Config=compile
+[Configurations]
+compile=AdderDesing
+[Library]
+AdderDesing=.\AdderDesing\AdderDesing.lib
+[$LibMap$]
+AdderDesing=.
+Active_lib=
+[Settings]
+FLOW_TYPE=HDL
+LANGUAGE=VHDL
+REFRESH_FLOW=1
+FLOWTOOLS=NONE
+FAMILY=
+[Files.Data]
+.\src\FA.vhd=VHDL Source Code
+.\src\untitled.asdb=Accelerated Waveform File
+.\src\untitled.awc=Accelerated Waveform Configuration
+.\src\_4BitFullAdder.vhd=VHDL Source Code
+.\src\HA.vhd=VHDL Source Code
+[Files]
+/FA.vhd=-1
+/untitled.asdb=-1
+/untitled.awc=-1
+/_4BitFullAdder.vhd=-1
+/HA.vhd=-1
